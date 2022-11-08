@@ -23,7 +23,7 @@
   width: max(200px, 30vw);
 
   background-color: var(--ghl);
-  border-radius: 90%;
+  border-radius: 48%;
 
   position: absolute;
   left: 50%;

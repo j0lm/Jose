@@ -1,21 +1,24 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar.jsx'
 import Home from './components/homepage/Home.jsx'
+import React, { useState, useEffect } from 'react';
 
 function App() {
-  const wrapper = document.getElementById("bubble-wrapper");
+  
+  const [mousePostition, setMousePosition] = useState(0);
 
-  const animateBubble = x => {
-    console.log(x);
+  useEffect(() => {
+    console.log(mousePostition);
+    const wrapper = document.getElementById("bubble-wrapper");
     const bubble = document.createElement("div");
     bubble.className = "bubble";
-    bubble.style.left = `${x}px`;
+    bubble.style.left = `${mousePostition}px`;
     wrapper.appendChild(bubble);
     setTimeout(() => wrapper.removeChild(bubble), 1000);
-  }
-  window.onmousemove = e => animateBubble(e.clientX);
+  });
+
   return (
-    <div className="App">
+    <div className="App" onMouseMove={(ev) => setMousePosition(ev.pageX)}>
       <div id='bubble-wrapper'></div>
       <Navbar />
       <Home />
@@ -24,6 +27,10 @@ function App() {
 }
 
 
+
+const animateBubble = x => {
+    
+}
 
 
 export default App;
