@@ -13,7 +13,8 @@ class Navbar extends Component {
 
     render() { 
         return (
-            <nav className="NavbarItems">
+        <div className='nav-wrapper'>
+             <nav className="NavbarItems">
                 <h1 className='navbar-logo'><i className="fa-solid fa-terminal"></i></h1>
                 <div 
                     className="menu-icon" 
@@ -32,6 +33,8 @@ class Navbar extends Component {
                     })}
                 </ul>
             </nav>
+        </div>
+           
         );
     }
 }

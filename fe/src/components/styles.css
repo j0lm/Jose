@@ -6,6 +6,12 @@
     --ghl: #558B6E;
 }
 
+.nav-wrapper {
+    position: fixed;
+    top: 0px;
+    width: 100%
+}
+
 .NavbarItems {
     font-family: 'Work Sans', sans-serif;
     background: var(--darker);
@@ -21,7 +27,6 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    font-family: 'Source Serif Pro', serif;
 }
 
 .nav-menu {
@@ -75,8 +80,9 @@
         display: flex;
         justify-content: flex-start;
         flex-direction: column;
+        max-width: 100%;
         width: 100%;
-        height: 37vh;
+        height: 300px;
         position: absolute;
         top: 80px;
         left: -100%;
@@ -99,11 +105,12 @@
     .nav-links {
         text-align: center;
         padding: 2rem;
-        width: 100%;
+        width: 100vh;
         display: table;
     }
 
     .nav-links:hover {
+        
         background-color: var(--dark);
         border-radius: 0;
     }

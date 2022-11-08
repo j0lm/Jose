@@ -1,0 +1,195 @@
+.HomePage {
+    background-color: var(--darker);
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px
+}
+
+.homepage-bg {
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6) ), url('alexandre-debieve-FO7JIlwjOtU-unsplash.jpg');
+    background-position: center;
+    height: calc(100vh - 80px);
+    max-width: 100%;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.jose {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 8rem;
+    color: var(--light);
+    padding: 0;
+    margin: 0;
+    padding-top: 3rem;
+}
+
+.olmedo {
+    border-bottom: .25rem solid var(--ghl);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    font-size: 8rem;
+    color: var(--light);
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-area {
+    font-size: 2rem;
+}
+
+.swe-desc {
+    font-weight: 400;
+    font-style: oblique;
+    font-size: 3rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    color: var(--light);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Summary {
+    max-width: 100%;
+    width: 100vw;
+    height: calc(100vh - 80px);
+    background-color: var(--darker);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.textbox {
+    background-color: var(--dark);
+    border-left: 20px solid var(--light);
+}
+
+.textbox:hover {
+    transition: all 0.3s ease;
+    outline: 2px solid var(--light)
+}
+
+.box-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.longer {
+    width: 630px;
+    height: 200px;
+    margin: 5px;
+    padding: 0px;
+    border-left: 0px;
+    border-right: 20px solid var(--light);
+}
+
+.long {
+    width: 480px;
+    height: 200px;
+    margin: 5px;
+}
+
+.hl {
+    background-color: var(--dark);
+    width: 120px;
+    height: 200px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fa-brands {
+    font-size: 96px;
+    color: var(--light);
+    margin: 0;
+    font-size: 60px;
+    text-align: center;
+    margin-right: 0px;
+}
+
+.fa-brands:hover {
+    cursor: pointer;
+}
+
+.fa-github {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fa-linkedin {
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+.am-text {
+    font-weight: 400;
+    
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    color: var(--light);
+}
+
+.title {
+    margin: 10px 15px 0px 15px;
+    color: var(--ghl);
+    font-style: oblique;
+}
+
+.para {
+    margin: 5px 15px 0px 15px;
+}
+
+@media screen and (max-width: 960px) {
+    .jose {
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        color: var(--light);
+        padding: 0;
+        margin: 0;
+        padding-top: 3rem;
+    }
+    
+    .olmedo {
+        border-bottom: .25rem solid var(--ghl);
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        font-size: 4rem;
+        color: var(--light);
+        padding: 0;
+        margin: 0;
+    }
+    
+    .welcome-area {
+        font-size: 1rem;
+    }
+    
+    .swe-desc {
+        font-weight: 400;
+        font-style: oblique;
+        font-size: 1.5rem;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        color: var(--light);
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.wip {
+    font-weight: 400;
+        font-style: oblique;
+        font-size: 1.5rem;
+        font-family: 'Work Sans', sans-serif;
+        font-weight: 600;
+        color: var(--light);
+        padding: 20px;
+        margin: 20px;
+}
