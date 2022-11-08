@@ -9,12 +9,12 @@ class Summary extends Component {
                 <div className='box-row'>
                     <div className='textbox hl'>
                         <i 
-                            class="fa-brands fa-github"
+                            className="fa-brands fa-github"
                             onClick={() => window.open("https://github.com/j0lm")}
                         >
                         </i>
                         <i 
-                            class="fa-brands fa-linkedin"
+                            className="fa-brands fa-linkedin"
                             onClick={() => window.open("https://linkedin.com/in/joseolmedojr")}
                         >
                         </i>                    

@@ -6,3 +6,38 @@
   min-height: 700px;
 }
 
+#bubble-wrapper {
+  height: 100%;
+  width: 100%;
+  max-width: 100vw;
+
+  position: fixed;
+  top: 0px;
+
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.bubble {
+  height: max(200px, 30vw);
+  width: max(200px, 30vw);
+
+  background-color: var(--ghl);
+  border-radius: 90%;
+
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+
+  animation: wave 1s ease-in-out infinite;
+}
+
+@keyframes wave {
+  from, to {
+    transform: translate(-50%,0%);
+  }
+
+  50% {
+    transform: translate(-50%, 20%);
+  }
+}
