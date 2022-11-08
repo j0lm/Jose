@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jose/static/css/main.3863d7b4.css",
+    "main.js": "/jose/static/js/main.8e0d15bf.js",
+    "static/js/787.7066aac0.chunk.js": "/jose/static/js/787.7066aac0.chunk.js",
+    "static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg": "/jose/static/media/alexandre-debieve-FO7JIlwjOtU-unsplash.b500c34cc6e45f64f0c7.jpg",
+    "index.html": "/jose/index.html",
+    "main.3863d7b4.css.map": "/jose/static/css/main.3863d7b4.css.map",
+    "main.8e0d15bf.js.map": "/jose/static/js/main.8e0d15bf.js.map",
+    "787.7066aac0.chunk.js.map": "/jose/static/js/787.7066aac0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3863d7b4.css",
+    "static/js/main.8e0d15bf.js"
+  ]
+}
