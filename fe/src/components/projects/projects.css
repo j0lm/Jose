@@ -1,4 +1,30 @@
 .Projects {
-    height: calc(100vh - 80px);
+    height: 100%;
     width: 100%;
+    margin: 80px 0px 0px 0px;
+    padding: 10px;
+    background-color: var(--dark);
+
+}
+
+.text {
+    font-family: 'Work Sans', sans-serif;
+    color: var(--light);
+}
+
+.pContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.contentContainer {
+    width: 500px;
+    height: 500px;
+    background-color: var(--light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

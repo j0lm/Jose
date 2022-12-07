@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './components/navbar/Navbar.jsx'
 import Home from './components/homepage/Home.jsx'
+import Projects from './components/projects/Projects.jsx'
 import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
     <div className="App" onMouseMove={(ev) => setMousePosition(ev.pageX)}>
       <div id='bubble-wrapper'></div>
       <Navbar />
-      <Home />
+      <Projects />
     </div>
   );
 }
